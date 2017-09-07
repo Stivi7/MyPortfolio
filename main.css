@@ -1,0 +1,18 @@
+h1 {
+    padding-top: 20px;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.skillIcons {
+    padding: 20px;
+}
+
+.iconSize {
+    font-size: 5rem;
+}
