@@ -5,7 +5,7 @@ h1 {
 .profile {
     width: 200px;
     height: 200px;
-    border: 1px solid black;
+    border: none;
     border-radius: 100%;
 }
 
@@ -16,3 +16,42 @@ h1 {
 .iconSize {
     font-size: 5rem;
 }
+
+.imgSize {
+    width: 100%;
+}
+
+
+li {
+    list-style: none;
+}
+
+section {
+    padding: 40px;
+}
+
+.contactIcon {
+    font-size: 2rem;
+} 
+
+.contactInfo {
+    padding: 25px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.row {
+    padding: 15px;
+}
+   
+a:link {color: black;}      
+a:visited {color: black;}
+a:hover {color: black;}     
+a:active {color: black;}    
+  
+
+ 
+ 

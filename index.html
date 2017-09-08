@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="js/lightslider.js"></script>
     <link rel="stylesheet" href="main.css">
 </head>
 
@@ -17,13 +22,13 @@
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
-        <a class="navbar-brand" href="#">STIVI NDONI</a>
+        <a class="navbar-brand" href="#about">STIVI NDONI</a>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
                 <a class="nav-item nav-link active" href="#about">About me<span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="#skills">Skills</a>
-                <a class="nav-item nav-link" href="#">Portfolio</a>
-                <a class="nav-item nav-link" href="#">Contact</a>
+                <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
             </div>
         </div>
     </nav>
@@ -73,7 +78,78 @@
 
         </div>
     </section>
-    
+
+    <section id="portfolio" class="bg-faded">
+
+        <div class="container text-center">
+            <h1>My Portfolio</h1>
+            <hr>
+            <ul id="lightSlider">
+                <li>
+                    <h3>Calculator</h3>
+                    <a href="https://codepen.io/Stivi7/full/mMxvbX/" target="_blank">
+                    <img src="thumbnails\Calculator.jpg" class="imgSize"></a>
+                </li>
+                <li>
+                    <h3>Pomodoro Clock</h3>
+                    <a href="https://codepen.io/Stivi7/full/KvexyZ/" target="_blank">
+                    <img src="thumbnails\Pomodoro.jpg" class="imgSize"></a>
+                </li>
+                <li>
+                    <h3>Simon Game</h3>
+                    <a href="https://codepen.io/Stivi7/full/dzaejz/" target="_blank">
+                    <img src="thumbnails\Simon.jpg" class="imgSize"></a>
+                </li>
+                <li>
+                    <h3>Tic Tac Toe</h3>
+                    <a href="https://codepen.io/Stivi7/full/dzQZzp/" target="_blank">
+                    <img src="thumbnails\TicTacToe.jpg" class="imgSize"></a>
+                </li>
+
+                <li>
+
+                    <h3>Twitch Viewer</h3>
+                    <a href="https://codepen.io/Stivi7/full/prwbEv/" target="_blank">
+                    <img src="thumbnails\Twitch.jpg" class="imgSize"></a>
+                </li>
+                <li>
+                    <h3>Weather App</h3>
+                    <a href="https://codepen.io/Stivi7/full/YxZeOa/" target="_blank">
+                    <img src="thumbnails\Weather.jpg" class="imgSize"></a>
+                </li>
+                <li>
+                    <h3>Wiki Viewer</h3>
+                    <a href="https://codepen.io/Stivi7/full/ZJKXRE/" target="_blank">
+                    <img src="thumbnails\Wiki.jpg" class="imgSize"></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container text-center">
+            <h1 class="text-center">Contact Me</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fa fa-phone contactIcon" aria-hidden="true"></i>
+                    <h5>################</h5>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-envelope contactIcon" aria-hidden="true"></i>
+                    <a href="mailto:stivi.ndoni@gmail.com"><h5>stivi.ndoni@gmail.com</h5></a>
+                </div>
+                <div class="col-md-4">
+                        <a href="https://www.facebook.com/stivi.ndoni" target="_blank">
+                        <i class="devicon-facebook-plain contactIcon"></i></a>
+                        <a href="https://github.com/Stivi7/" target="_blank"> 
+                        <i class="devicon-github-plain contactIcon"></i></a>
+                        <a href="https://plus.google.com/u/0/+stivindoni" target="_blank">
+                        <i class="devicon-google-plain contactIcon"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
 
 
@@ -81,12 +157,13 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-        crossorigin="anonymous"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
