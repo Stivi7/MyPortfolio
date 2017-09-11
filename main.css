@@ -49,9 +49,16 @@ a {
    
 a:link {color: black;}      
 a:visited {color: black;}
-a:hover {color: black;}     
-a:active {color: black;}    
-  
+a:hover {color: black;
+text-decoration: none;}     
+a:active {color: black;}   
 
- 
- 
+
+.socialIcon {
+    font-size: 2rem;
+    margin-left: 40px;
+} 
+
+html * :not(i) {
+    font-family: 'Roboto Slab', serif !important;
+}
